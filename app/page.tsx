@@ -43,9 +43,9 @@ export default function Home() {
                 href="https://github.com/Me2Geek"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group transition-transform hover:scale-105"
+                className="group transition-transform hover:scale-105 z-20 relative"
             >
-                <div className="text-center">
+            <div className="text-center">
                     <div className="text-[120px] leading-none font-bold tracking-tight">
                         <span className="text-foreground">Me</span>
                         <span className="text-[#2d6a5f]">2</span>
@@ -57,9 +57,9 @@ export default function Home() {
             {/* 邮箱 */}
             <a
                 href="mailto:forward@me2geek.top"
-                className="mt-6 text-lg text-muted-foreground hover:text-foreground transition-colors"
+                className="mt-6 text-lg text-muted-foreground hover:text-foreground transition-colors z-20 relative"
             >
-                forward@me2geek.top
+            forward@me2geek.top
             </a>
         </div>
     )
